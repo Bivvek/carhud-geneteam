@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(43, 33, 33);
+    align-items: flex-end;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hud-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50vh;
+    width: 100%;
+   
+}
+
+.hud {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 0 1vh;
+    border-radius: 90px;
+    height: 20%;
+    margin: 1vh 0 1vh 0;
+}
+
+.hud-item {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-color: pink;
+    height: 90%;
+    width: 55px;
+    margin: 5px;
+    border-radius: 90px;
+    border-style: solid;
+    border-color:#872cac;
+    background-color: transparent;
+}
+
+.hud-item-icon {
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hud-item-fill {
+    width: 100%;
+    height: 66%;
+    background-color:#872cac;
+    border-radius: 70px;
+    opacity: 0.5;
+}
+
+.carhud {
+    margin: 0 1vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    height: 25vh;
+}
+
+.streetlabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .3vh;
+    width: 93%;
+    height: 20%;
+    border-radius: 40px;
+    border-style:solid;
+    border-color:#693180;
+    background-color: transparent;
+    box-shadow: transparent;
+}
+
+.street {
+    width: 55%;
+}
+
+.direction {
+    margin-left: 5vh;
+    font-size: 200%;
+}
+
+.carhud-hud {
+    margin-bottom: 1vh;
+    border-radius: .3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    border-radius: 40px;
+    border-style:solid;
+    border-color:#693180;
+    background-color: transparent;
+    box-shadow: transparent;
+}
+
+.speed {
+    font-weight: bold;
+    color:white;
+    margin: 0 1vh;
+    font-size: 200%;
+}
+
+.speed-label {
+    margin: 0 3vh 0 0;
+    font-size: 110%;
+}
+
+.fuel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    height: 80%;
+    width: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color:#872cac;
+}
+
+.carhud-fuel-fill {
+    width: 100%;
+    height: 66%;
+    background-color:#872cac;
+    border-radius: 70px;
+    opacity: 0.5;
+}
+
+.carhud-fuel-icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+i {
+    font-size: 130%;
+}
